@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block body %}
+<h1> Employee Databse</h1>
+<div class = "container" >
+      <form>
+      <label for="id">Employee id</label>
+      <input type="text" id="ide" name="ide"  required>
+   
+      <label for="name">Name:</label>
+      <input type="name" id="name" name="name"  required>
+   
+      <label for="email">Email</label>
+      <input id="email" name="email" required>
+   
+      <label for="department">Department:</label>
+      <input type="department" id="department" name="department"  required>
+   
+      <label for="manager">Manager:</label>
+      <input type="manager" id="manager" name="manager"  required>
+
+      <button type="submit">Submit</button>
+    </form>
+
+</div>
+{% endblock %}
